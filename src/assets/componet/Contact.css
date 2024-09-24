@@ -1,0 +1,14 @@
+.form-design{
+    font-size: 20px;
+    color: white !important;
+    background: none;
+
+}
+.form-design::placeholder{
+    color: white;
+}
+.form-design:focus{
+   outline: none;
+    background: none;
+
+}

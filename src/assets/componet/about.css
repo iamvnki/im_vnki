@@ -1,0 +1,11 @@
+.box{
+    width: fit-content;
+    height: auto;
+    background-color: none;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    border: 1px solid white;
+    padding: 40px;
+    font-size: 30px;
+    letter-spacing: 2px;
+}
