@@ -1,5 +1,6 @@
+
+
 .venkat{
-    font-family: cursive;
     font-weight: 700;
     font-size: 70px;
     letter-spacing: 5px;
@@ -13,7 +14,7 @@
 .sub-head{
     font-size: xx-large;
     font-style: italic;
-    font-family: 'Courier New', Courier, monospace;
+   
 }
 .hire{
     width: 600px;
@@ -24,43 +25,54 @@
     transition: 1s;
     font-size: 30px;
     letter-spacing: 2px;
-    font-family: cursive;
+    
 }
 .hire:hover{
     background-color: rgb(248, 252, 4);
     color: black;
 }
-.message{
-    width: 200px;
-    padding: 10px;
+/* .message{
+    width: 150px;
+    padding: 5px;
     border-radius: 10px;
     color: white;
     background-color: #00b2ff;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 15px;
     letter-spacing: 2px;
-    font-family: cursive;
-}
+} */
+
 .show {
-    font-family: cursive;
     letter-spacing: 2px;
+}
+.poly{
+   position: relative;
+}
+.poly::before{
+    content: " ";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: url(geo.png) no-repeat center center;
+    background-size: cover;
+    filter: blur(40px); 
+    opacity: 0.9;
+    z-index: -1;
+
 }
 
 .circle {
-    width: 400px;
-    height: 400px;
+    width: 200px;
+    height: 200px;
     background: linear-gradient(135deg, rgb(21, 92, 68), rgb(32, 121, 107), rgb(131, 178, 153));
     border-radius: 50%;
-    box-shadow: 0 4px 10px rgba(21, 92, 68, 0.3), 0 2px 5px rgba(131, 178, 153, 0.2);
-    font-family: "Sofadi One", system-ui;
     font-weight: 400;
     font-size: 20px
 
 }
-.circle:hover{
-    border: 10px solid white;
-    box-shadow: 5px 5px 40px yellow;
-}
+
 .navi{
     text-decoration: none;
     color: white;
