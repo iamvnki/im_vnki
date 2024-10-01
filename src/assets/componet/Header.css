@@ -64,8 +64,9 @@
 }
 
 .circle {
-    width: 200px;
-    height: 200px;
+    width: 160px;
+    /* height: 200px; */
+    aspect-ratio: 1/1;
     background: linear-gradient(135deg, rgb(21, 92, 68), rgb(32, 121, 107), rgb(131, 178, 153));
     border-radius: 50%;
     font-weight: 400;
